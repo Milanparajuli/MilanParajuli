@@ -8,6 +8,12 @@ import { SidebarComponent } from './common/component/sidebar/sidebar.component';
 import { FooterComponent } from './common/component/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './clientside/home/home.component';
+import { MatSliderModule } from '@angular/material/slider';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatListModule } from '@angular/material/list';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
+import { MyselfComponent } from './clientside/myself/myself.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +21,20 @@ import { HomeComponent } from './clientside/home/home.component';
     NavComponent,
     SidebarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    MyselfComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MatSliderModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    MatSidenavModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
