@@ -14,6 +14,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MyselfComponent } from './clientside/myself/myself.component';
+import { ResumeComponent } from './clientside/resume/resume.component';
+import { CvComponent } from './clientside/cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { MyselfComponent } from './clientside/myself/myself.component';
     FooterComponent,
     HomeComponent,
     MyselfComponent,
+    ResumeComponent,
+    CvComponent,
   ],
   imports: [
     BrowserModule,
