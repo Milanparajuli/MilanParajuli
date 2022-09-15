@@ -16,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MyselfComponent } from './clientside/myself/myself.component';
 import { ResumeComponent } from './clientside/resume/resume.component';
 import { CvComponent } from './clientside/cv/cv.component';
+import { CertificateComponent } from './clientside/certificate/certificate.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { CvComponent } from './clientside/cv/cv.component';
     MyselfComponent,
     ResumeComponent,
     CvComponent,
+    CertificateComponent,
   ],
   imports: [
     BrowserModule,
