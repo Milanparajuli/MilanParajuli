@@ -17,6 +17,9 @@ import { MyselfComponent } from './clientside/myself/myself.component';
 import { ResumeComponent } from './clientside/resume/resume.component';
 import { CvComponent } from './clientside/cv/cv.component';
 import { CertificateComponent } from './clientside/certificate/certificate.component';
+import { FirstComponent } from './clientside/first/first.component';
+import { InfoCertificateComponent } from './clientside/information/info-certificate/info-certificate.component';
+import { ContactInfoComponent } from './clientside/information/info-certificate/contact-info/contact-info.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +32,9 @@ import { CertificateComponent } from './clientside/certificate/certificate.compo
     ResumeComponent,
     CvComponent,
     CertificateComponent,
+    FirstComponent,
+    InfoCertificateComponent,
+    ContactInfoComponent,
   ],
   imports: [
     BrowserModule,
