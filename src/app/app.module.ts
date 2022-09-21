@@ -19,7 +19,9 @@ import { CvComponent } from './clientside/cv/cv.component';
 import { CertificateComponent } from './clientside/certificate/certificate.component';
 import { FirstComponent } from './clientside/first/first.component';
 import { InfoCertificateComponent } from './clientside/information/info-certificate/info-certificate.component';
-import { ContactInfoComponent } from './clientside/information/info-certificate/contact-info/contact-info.component';
+import { ContactInfoComponent } from './clientside/information/contact-info/contact-info.component';
+import { ProjectsComponent } from './clientside/information/projects/projects.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { ContactInfoComponent } from './clientside/information/info-certificate/
     FirstComponent,
     InfoCertificateComponent,
     ContactInfoComponent,
+    ProjectsComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
