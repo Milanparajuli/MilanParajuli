@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CertificateComponent } from './clientside/certificate/certificate.component';
-import { CvComponent } from './clientside/cv/cv.component';
+// import { CvComponent } from './clientside/cv/cv.component';
 import { FirstComponent } from './clientside/first/first.component';
 import { HomeComponent } from './clientside/home/home.component';
 import { ContactInfoComponent } from './clientside/information/contact-info/contact-info.component';

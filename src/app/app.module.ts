@@ -15,7 +15,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MyselfComponent } from './clientside/myself/myself.component';
 import { ResumeComponent } from './clientside/resume/resume.component';
-import { CvComponent } from './clientside/cv/cv.component';
 import { CertificateComponent } from './clientside/certificate/certificate.component';
 import { FirstComponent } from './clientside/first/first.component';
 import { InfoCertificateComponent } from './clientside/information/info-certificate/info-certificate.component';
@@ -32,7 +31,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     MyselfComponent,
     ResumeComponent,
-    CvComponent,
     CertificateComponent,
     FirstComponent,
     InfoCertificateComponent,
