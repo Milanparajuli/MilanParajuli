@@ -1,4 +1,4 @@
-<div class="container mt-3">
+<div class="sm container mt-3">
   <div class="row">
     <div
       class="col content mb-3"
@@ -21,7 +21,7 @@
        <div class="icon">
         <span *ngFor="let contact of contacts;">
           <a [routerLink]="contact?.url"
-          [routerLinkActive]="contact?.url ? 'list-item-active' : ''">" target="_blank" title="{{contact.name}}"
+          [routerLinkActive]="contact?.url ? 'list-item-active' : ''" target="_blank" title="{{contact.name}}"
             ><mat-icon>{{contact?.icon}}</mat-icon></a
           >
         </span>
