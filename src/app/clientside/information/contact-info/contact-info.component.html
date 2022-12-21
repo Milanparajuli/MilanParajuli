@@ -22,7 +22,12 @@
         <span *ngFor="let contact of contacts;">
           <a [routerLink]="contact?.url"
           [routerLinkActive]="contact?.url ? 'list-item-active' : ''" target="_blank" title="{{contact.name}}"
-            ><mat-icon>{{contact?.icon}}</mat-icon></a
+            >
+            <!-- <mat-icon>{{contact?.icon}}</mat-icon> -->
+            <span class="icons">
+              <i class="{{contact.icon}}"></i>
+            </span>
+            </a
           >
         </span>
           <!--

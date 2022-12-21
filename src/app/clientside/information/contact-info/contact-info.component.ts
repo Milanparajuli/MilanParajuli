@@ -9,23 +9,23 @@ export class ContactInfoComponent implements OnInit {
   contacts:Array<any> = new Array<any>(
     {
       name: 'Facebook',
-      icon: 'facebook',
+      icon: 'fab fa-facebook',
       url: 'https://www.facebook.com/milanparajuli09',
     },
     {
       name: 'Instagram',
-      icon: 'instagram',
+      icon: 'fab fa-instagram',
       url: 'https://www.instagram.com/milanparajuli9/',
     },
     {
       name: 'Github',
-      icon: 'github',
+      icon: 'fab fa-github',
       url: 'https://github.com/Milanparajuli',
     },
     {
       name: 'Linkedin',
-      icon: 'linkedin',
-      url: 'https://www.linkedin.com/in/milan-parajuli-0379a320a/',
+      icon: 'fab fa-linkedin',
+      url: 'https://www.linkedin.com/in/milanparajuli/',
     },
   );
   constructor() { }
