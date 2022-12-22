@@ -41,6 +41,7 @@ const routes: Routes = [
       {
         path: 'project',
         component: ProjectsComponent,
+        data:{title:'Project'}
       },
     ],
   },
